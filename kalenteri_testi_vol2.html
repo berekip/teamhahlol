@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<style type="text/css">
+label {
+	display: block;
+	width: 13em;
+	float: left;
+}
+</style>
+<title>Kalenteri_prododyybbi</title>
+
+
+</head>
+<body>
+
+<!-- <a href="http://www.google.fi" target="_blank" onclick="checkdate()">Luukku 1</a><br> -->
+<!-- <a href="http://www.hs.fi" target="_blank">Luukku 2</a> -->
+
+<button type="button" onclick="checkdate()">Luukku 1</button><br>
+
+</body>
+    
+
+    
+    
+    
+<script type="text/javascript">
+
+    
+Date.prototype.getWeekNumber = function(){
+    var d = new Date(+this);
+    d.setHours(0,0,0,0);
+    d.setDate(d.getDate()+4-(d.getDay()||7));
+    return Math.ceil((((d-new Date(d.getFullYear(),0,1))/8.64e7)+1)/7);
+};
+
+var luukkuViikko = 17;
+var currentViikko = new Date().getWeekNumber();
+    
+console.log("Luukkuun merkattu viikko: " + luukkuViikko);
+console.log("Nykyinen viikko: " + currentViikko);
+    
+    
+function checkdate() {
+    
+
+if ( currentViikko < luukkuViikko) {
+    alert("luukku kiinni");
+} else {
+    alert("luukku auki");
+    window.open("http://www.google.fi")
+}
+};
+    
+
+
+    
+    
+</script>    
+</html>
