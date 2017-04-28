@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Dice</title>
+  <style type="text/css">
+#dice {
+  font-family: 'Verdana';
+  font-size: 30px;
+
+}
+</style>
+</head>
+<body>
+    <script>
+    
+        $(document).ready(function() {
+
+	$('.simple-ajax-popup-align-top').magnificPopup({
+		type: 'ajax',
+		alignTop: true,
+		overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+	});
+
+	$('.simple-ajax-popup').magnificPopup({
+		type: 'ajax'
+	});
+	
+});
+        
+
+    </script>
+    
+    
+<a class="simple-ajax-popup-align-top" href="http://www.google.fi">Load content via ajax</a><br>
+<a class="simple-ajax-popup" href="site-assets/ajax/test-ajax-2.html">Load another content via ajax</a>
+
+	<div id="testi"></div>
+</body>
+</html>
