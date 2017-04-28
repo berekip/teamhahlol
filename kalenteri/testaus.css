@@ -1,0 +1,35 @@
+body {
+    background-image: url("beisik_idea.png");
+    background-repeat: no-repeat;
+}
+
+/* #viikko1 {
+    border: 2px solid blue;
+    margin-top: 21px;
+    min-height: 100px;
+    width: 795px;
+}
+*/
+a {
+    display:block;
+    /*border: 2px solid blue;*/
+    margin-top: 24px;
+    margin-left: 20px;
+    min-height: 100px;
+    width: 780px;
+    
+}
+
+#viikko2 {
+    margin-top:0px;
+}
+
+#viikko3 {
+    margin-top:2px;
+    heigth:150px;
+}
+a:hover {
+    background-color:deeppink;
+    opacity: 0.5;
+    
+}
