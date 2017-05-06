@@ -7,23 +7,12 @@ body {
     font-size: 30px
 }
 
-header,
-footer {
-    text-align: center
-}
-
 h1 {
     color: black
-}
-
-h1 {
     font-family: 'Verdana', sans-serif
 }
 
 p {
     color: black
-}
-
-p {
     font-family: 'Verdana', sans-serif
 }
