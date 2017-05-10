@@ -1,18 +1,54 @@
-﻿/* lisää tämä jokaiseen html -sivuun: <link href="tyyli.css" rel="stylesheet" type="text/css"> */
+/* lisää tämä jokaiseen html -sivuun: <link href="tyyli.css" rel="stylesheet" type="text/css"> */
 
 body {
     background-color: rgb(255, 255, 255);
-    color: (0, 0, 0);
+    background-image: url("pastelbg.jpg");
     font-family: 'Verdana', sans-serif;
-    font-size: 30px
+}
+
+
+/* jos käytetään containereita niin tässä koodi:
+tätä käytettävä html-sivuilla: <div class="container"></div>
+
+käyettävä css alla:
+
+.container {
+      background-image: url("osoite");
+}
+
+tämän voi kokeilla google mapsille:
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+*/
+
+header,
+footer {
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    font-size: 12px;
 }
 
 h1 {
-    color: black
-    font-family: 'Verdana', sans-serif
+    color: (0, 0, 0);
+    font-family: 'Verdana', sans-serif;
+    font-size: 20px
 }
 
 p {
-    color: black
-    font-family: 'Verdana', sans-serif
+    color: (0, 0, 0);
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
 }
