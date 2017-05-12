@@ -1,5 +1,3 @@
-/* lisää tämä jokaiseen html -sivuun: <link href="tyyli.css" rel="stylesheet" type="text/css"> */
-
 body {
     background-color: rgb(255, 255, 255);
     background-image: url("pastelbg.jpg");
@@ -14,25 +12,7 @@ käyettävä css alla:
 
 .container {
       background-image: url("osoite");
-}
-
-tämän voi kokeilla google mapsille:
-
-.google-maps {
-    position: relative;
-    padding-bottom: 75%;
-    height: 0;
-    overflow: hidden;
-}
-
-.google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-*/
+}*/
 
 header,
 footer {
